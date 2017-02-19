@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Rationale');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.page {
+    max-width:              98%;
+    width:                  100%;
+    background-color:       rgba(0,0,0,0.75);
+    border-radius:          8px;
+    border:                 solid;
+    border-width:           1px;
+    border-color:           #0a0a0a;
+    color:                  #FFF;
+    box-shadow:             0px 4px 3px rgba(100,100,100,0.7);
+    margin-top:             8px;
+    text-shadow:            0px 4px 3px rgba(100,100,100,0.7),
+    0px 8px 13px rgba(100,100,100,0.4),
+    0px 18px 23px rgba(100,100,100,0.2);
+    font-size:              16px;
+    font-family: 'Rationale', sans-serif;
+}
+html {
+    padding:                0px;
+    margin:                 0px;
+    font-family:            verdana,geneva,lucida,"lucida grande",arial,helvetica,sans-serif;
+    background-repeat:      no-repeat;
+    background-attachment:  fixed;
+    background-size:        cover;
+    font-size:              12px;
+}
+.bigusername {
+    color:                  #FFF;
+    text-decoration:        none;
+    font-size:              28px;
+    font-family: 'Bangers', cursive;
+}
+a:link, a:hover, a:visited {
+    text-decoration:        none;
+    text-shadow:            rgba(0,0,0,0.3) 1px 0,
+                            rgba(0,0,0,0.3) 0px 1px,
+                            rgba(128,128,128,0.3) 0px 1px,
+                            rgba(0,0,0,0.3) 0px 1px;
+    color: #AAA;
+}
+a[id^="postcount"] strong {
+    font-family:            'Bangers', cursive;
+    font-size:              20px;
+}
+strong {
+    font-size:              16px;
+    font-weight:            300;
+}
+img[title$="Avatar"] {
+    max-width:              175px;
+    border-radius:          9%;
+}
+img[title="Reply"] {
+    margin-top:             16px;
+    margin-left:            16px;
+}
+.alt2 {
+    max-width:              275px;
+}
+#vB_Editor_QR_textarea {
+    width:                  99%;
+    background-color:       rgba(0,0,0,0.3);
+}
+div[id^="reputationmenu_"] {
+    background-color:       rgba(0,0,0,0.7);
+}
+.vbmenu_popup {
+    background-color:       #181818;
+}
+.smallfont {
+    font-size:              14px;
+}
+td {
+    border:                 none !important;
+}
+thead {
+    font-size:              12px;
+}
+table[id^="post"] {
+    padding:                0px;
+}
+table {
+}
+#collapseobj_usercp_reputation tr {
+    color:                  #ffffff;
+    text-shadow:            1px 2px #000000;
+    box-shadow:             0px 0px 1px #000000;
+    font-size:              16px !important;
+}
+tbody[id^="threadbits_forum"] tr {
+    box-shadow:             0px 0px 1px #181818;
+}
+map[name="vb_headmap"] {
+    display:                none;
+}
+button.fa {
+    background-color:       rgba(150,150,150,0.4);
+    border-width:           2px;
+    border-color:           rgba(0,0,0,1.0);
+    border-style:           solid;
+    color:                  rgba(200,200,200,1.0);
+    font-size:              12px;
+    box-shadow:             0px 4px 3px rgba(100,100,100,0.7);
+    margin-top:             8px;
+    margin:                 4px;
+    padding:                8px;
+}
+.date {
+    font-size:              12px;
+}
+img:not([src*="rogan"]):not([src^="images/editor"]) {
+    max-width:              100%;
+}
+.vbmenu_control {
+    font-size:              16px;
+}
+a[id^='thread_title_'] {
+    font-size:20px;
+}
+b {
+    text-shadow:            rgba(0,0,0,0.9) 1px 0,
+                            rgba(0,0,0,0.9) 0px 1px,
+                            rgba(128,128,0,0.9) 0px 1px,
+                            rgba(0,0,0,0.9) 0px 1px;
+}
+img[usemap='#vb_headmap'] {
+    display:                none;
+}
+pre {
+    max-width: 100%;
+    max-height: 640px;
+}
