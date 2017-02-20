@@ -44,5 +44,6 @@ $(document).ready(function () {
   $(".thead:contains('PM')").wrapInner("<div class=date></div>");
   $(".thead:contains('AM')").wrapInner("<div class=date></div>");
   $('map[name="vb_headmap"]').remove();
-  $('pre.alt2').css('style', '');
+    $('pre.alt2').attr('style');
+    $('pre.alt2').removeAttr('style');
 });
