@@ -96,7 +96,7 @@ tbody[id^="threadbits_forum"] tr {
 map[name="vb_headmap"] {
     display:                none;
 }
-button.fa {
+.fa {
     background-color:       rgba(150,150,150,0.4);
     border-width:           2px;
     border-color:           rgba(0,0,0,1.0);

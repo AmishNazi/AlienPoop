@@ -2,7 +2,7 @@
 // @name        Rogan Board
 // @namespace   http://forums.joerogan.net/
 // @description Thread mod.
-// @version     1
+// @version     0.0.1
 // @grant       GM_getResourceURL
 // @grant       GM_getResourceText
 // @grant       GM_addStyle
@@ -35,7 +35,7 @@ $(document).ready(function () {
   $('div:textEquals("Quote:")').next().css('border-width', '1.25px');
   $('div:textEquals("Quote:")').next().css('margin-bottom', '16px');
   $('img[title="Reply With Quote"]').replaceWith('<button class="fa fa-mail-reply"></button>');
-  $('img[title="Multi-Quote This Message"]').replaceWith('<button class="fa fa-quote-right"></button>');
+  $('img[title="Multi-Quote This Message"]').addClass('.fa');
   $('img[title="Quick reply to this message"]').replaceWith('<button class="fa fa-rocket"></button>');
   $('img[title="Edit/Delete Message"]').replaceWith('<button class="fa fa-pencil-square-o"></button>');
   $('a:any-link').css('color', '#ACACAC');
@@ -44,4 +44,5 @@ $(document).ready(function () {
   $(".thead:contains('PM')").wrapInner("<div class=date></div>");
   $(".thead:contains('AM')").wrapInner("<div class=date></div>");
   $('map[name="vb_headmap"]').remove();
+  $('pre.alt2').removeAttr('style');
 });
