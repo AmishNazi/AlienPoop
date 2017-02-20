@@ -35,7 +35,7 @@ $(document).ready(function () {
   $('div:textEquals("Quote:")').next().css('border-width', '1.25px');
   $('div:textEquals("Quote:")').next().css('margin-bottom', '16px');
   $('img[title="Reply With Quote"]').replaceWith('<button class="fa fa-mail-reply"></button>');
-  $('img[title="Multi-Quote This Message"]').addClass('.fa');
+  $('img[title="Multi-Quote This Message"]').addClass('fa');
   $('img[title="Quick reply to this message"]').replaceWith('<button class="fa fa-rocket"></button>');
   $('img[title="Edit/Delete Message"]').replaceWith('<button class="fa fa-pencil-square-o"></button>');
   $('a:any-link').css('color', '#ACACAC');
