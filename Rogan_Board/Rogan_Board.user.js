@@ -38,7 +38,6 @@ $(document).ready(function () {
   $('img[title="Multi-Quote This Message"]').addClass('fa');
   $('img[title="Quick reply to this message"]').replaceWith('<button class="fa fa-rocket"></button>');
   $('img[title="Edit/Delete Message"]').replaceWith('<button class="fa fa-pencil-square-o"></button>');
-  $('a:any-link').css('color', '#ACACAC');
   $('html').css('visibility', 'visible');
   $('tbody#qr_error_tbody').detach();
   $(".thead:contains('PM')").wrapInner("<div class=date></div>");
