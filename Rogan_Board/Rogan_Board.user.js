@@ -21,6 +21,9 @@ $(document).ready(function () {
     var tits  = 'https://nik.bot.nu/o1642559.jpg';
     var panel = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/panel.png';
   $('#vbulletin_css').remove();
+  $('iframe').removeAttr('height');
+  $('iframe').removeAttr('width');
+  $('iframe').css('max-width', '100%');
   $('#vB_Editor_QR_textarea').removeAttr('cols');
   $('#vB_Editor_QR_textarea').removeAttr('rows');
   $('.page').css('background-image', 'url("' + panel + '")');
