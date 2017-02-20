@@ -132,6 +132,6 @@ img[usemap='#vb_headmap'] {
 pre {
     max-width: 100%;
     max-height: 640px;
-    overflow-x: hidden;: auto;
     white-space:       pre-wrap !important;
+    word-break:        break-all !important;
 }
