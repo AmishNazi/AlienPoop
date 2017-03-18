@@ -48,5 +48,5 @@ $(document).ready(function () {
   $('map[name="vb_headmap"]').remove();
   $('pre.alt2').attr('style');
   $('pre.alt2').removeAttr('style').toggleClass('alt2');
-  $("body").fadeIn(1500);
+  $("body").fadeIn(0);
 });
