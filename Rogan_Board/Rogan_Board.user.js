@@ -1,8 +1,8 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name        Rogan Board
 // @namespace   http://forums.joerogan.net/
 // @description Thread mod.
-// @version     0.0.2
+// @version     0.0.3
 // @grant       GM_getResourceURL
 // @grant       GM_getResourceText
 // @grant       GM_addStyle
@@ -10,25 +10,31 @@
 // @require     https://code.jquery.com/jquery-3.1.1.min.js
 // @require     http://js.nicedit.com/nicEdit-latest.js
 // @resource    rogan https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/rogan.css
+// @resource    tits https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/80085.jpg
+// @resource    panel https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/panel.png
 // @run-at      document-start
 // ==/UserScript==
 
 GM_addStyle(GM_getResourceText('rogan'));
+var panel = GM_getResourceURL('panel');
+var tits =  GM_getResourceURL('tits');
+
 $(document).ready(function () {
+
     $.expr[':'].textEquals = function (a, i, m) {
     return $(a).text().match('^' + m[3] + '$');
   };
-    var tits  = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/80085.jpg';
-    var panel = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/panel.png';
+
   $('#vbulletin_css').remove();
   $('iframe').removeAttr('height');
   $('iframe').removeAttr('width');
   $('iframe').css('max-width', '100%');
   $('#vB_Editor_QR_textarea').removeAttr('cols');
   $('#vB_Editor_QR_textarea').removeAttr('rows');
-  $('.page').css('background-image', 'url("' + panel + '")');
-  $('#vB_Editor_QR').css('background-image', 'url("' + panel + '")');
-  $('html').css('background-image', 'url("' + tits + '")');
+  $('.page').css('background-image', "url("+panel+")");
+
+  $('#vB_Editor_QR').css('background-image', "url("+panel+")");
+  $('html').css('background-image', "url("+tits+")");
   $('.posts').removeAttr('style');
   $('.bigusername').removeAttr('style');
   $('.bigusername').parent().css('font-size', '18px');
