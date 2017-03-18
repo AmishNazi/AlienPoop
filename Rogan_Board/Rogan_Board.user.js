@@ -18,7 +18,6 @@ $(document).ready(function () {
     $.expr[':'].textEquals = function (a, i, m) {
     return $(a).text().match('^' + m[3] + '$');
   };
-    $("body").fadeIn(1500);
     var tits  = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/80085.jpg';
     var panel = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/panel.png';
   $('#vbulletin_css').remove();
@@ -47,6 +46,7 @@ $(document).ready(function () {
   $(".thead:contains('PM')").wrapInner("<div class=date></div>");
   $(".thead:contains('AM')").wrapInner("<div class=date></div>");
   $('map[name="vb_headmap"]').remove();
-    $('pre.alt2').attr('style');
-    $('pre.alt2').removeAttr('style').toggleClass('alt2');
+  $('pre.alt2').attr('style');
+  $('pre.alt2').removeAttr('style').toggleClass('alt2');
+  $("body").fadeIn(1500);
 });
