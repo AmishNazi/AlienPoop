@@ -2,7 +2,7 @@
 // @name        Rogan Board
 // @namespace   http://forums.joerogan.net/
 // @description Thread mod.
-// @version     0.0.1
+// @version     0.0.2
 // @grant       GM_getResourceURL
 // @grant       GM_getResourceText
 // @grant       GM_addStyle
