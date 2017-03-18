@@ -135,5 +135,5 @@ pre {
     white-space:       pre-wrap !important;
     word-break:        break-all !important;
 }
-iframe { max-width: 100% !important; }
+iframe { max-width: 100% !important; min-height: 320px !important; }
 body { display:none; }
