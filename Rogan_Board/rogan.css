@@ -135,4 +135,4 @@ pre {
     white-space:       pre-wrap !important;
     word-break:        break-all !important;
 }
-body { display:none; }
+body { visibility: hidden; }
