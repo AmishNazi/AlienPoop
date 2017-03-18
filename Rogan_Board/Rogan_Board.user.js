@@ -14,10 +14,8 @@
 // ==/UserScript==
 
 GM_addStyle(GM_getResourceText('rogan'));
-$(window).load(function() {
-    $("body").fadeIn("slow");
-});
 $(document).ready(function () {
+    $("body").fadeIn("slow");
     $.expr[':'].textEquals = function (a, i, m) {
     return $(a).text().match('^' + m[3] + '$');
   };
