@@ -18,7 +18,7 @@ $(document).ready(function () {
     $.expr[':'].textEquals = function (a, i, m) {
     return $(a).text().match('^' + m[3] + '$');
   };
-    $("body").fadeIn("slow");
+    $("body").fadeIn("1500");
     var tits  = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/80085.jpg';
     var panel = 'https://raw.githubusercontent.com/AmishNazi/AlienPoop/master/Rogan_Board/panel.png';
   $('#vbulletin_css').remove();
