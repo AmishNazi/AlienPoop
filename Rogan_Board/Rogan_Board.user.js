@@ -2,7 +2,7 @@
 // @name        Rogan Board
 // @namespace   http://forums.joerogan.net/
 // @description Thread mod.
-// @version     0.0.3
+// @version     0.0.4
 // @grant       GM_getResourceURL
 // @grant       GM_getResourceText
 // @grant       GM_addStyle
@@ -49,5 +49,6 @@ $(document).ready(function () {
   $('map[name="vb_headmap"]').remove();
   $('pre.alt2').attr('style');
   $('pre.alt2').removeAttr('style').toggleClass('alt2');
-  $("body").fadeIn(0);
+  $('body').fadeIn(0);
+  $('body').css('display', 'block');
 });
