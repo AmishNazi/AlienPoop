@@ -4,6 +4,7 @@
 .page {
     max-width:              98%;
     width:                  100%;
+    min-width:              100%;
     background-color:       rgba(0,0,0,0.75);
     border-radius:          8px;
     border:                 solid;
